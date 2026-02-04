@@ -11,7 +11,7 @@ const Home = () => {
         <h2 className="text-2xl font-bold text-center mb-6">Welcome to PopX</h2>
         <Button onClick={() => navigate('/create-account')}>Create Account</Button>
         
-        <Button onClick={() => navigate('/login')} className=" bg-[var(--col4)]! hover:bg-[var(--col1)]! hover:text-[var(--col5)]! text-[var(--col3)]!">
+        <Button onClick={() => navigate('/login')} className=" bg-[var(--col4)]! hover:bg-[var(--col6)]! hover:text-[var(--col5)]! text-[var(--col3)]!">
           Already Registered? Login
         </Button>
       </div>
