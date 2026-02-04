@@ -123,7 +123,7 @@ const CreateAccount = () => {
                   value="Yes"
                   checked={formData.isAgency === 'Yes'}
                   onChange={handleChange}
-                  className="form-checkbox h-4 w-4 text-blue-500 border-gray-300 rounded-full focus:ring-2 focus:ring-blue-500"
+                  className="form-checkbox h-4 w-4 text-[var(--col1)] border-gray-300 rounded-full focus:ring-2 focus:ring-[var(--col1)]"
                 />
                 <label htmlFor="isAgencyYes" className="ml-2">Yes</label>
               </div>
@@ -136,7 +136,7 @@ const CreateAccount = () => {
                   value="No"
                   checked={formData.isAgency === 'No'}
                   onChange={handleChange}
-                  className="form-checkbox h-4 w-4 text-blue-500 border-gray-300 rounded-full focus:ring-2 focus:ring-blue-500"
+                  className="form-checkbox h-4 w-4 text-[var(--col1)] border-gray-300 rounded-full focus:ring-2 focus:ring-[var(--col1)]"
                 />
                 <label htmlFor="isAgencyNo" className="ml-2">No</label>
               </div>

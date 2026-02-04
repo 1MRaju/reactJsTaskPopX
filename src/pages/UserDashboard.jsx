@@ -16,7 +16,7 @@ const UserDashboard = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold">Full Name</h3>
-          <p>{user.fullName || 'N/A'}</p> {/* Use a fallback if fullName is missing */}
+          <p>{user.fullName || 'No Name'}</p>
         </div>
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-xl font-semibold">Email</h3>
